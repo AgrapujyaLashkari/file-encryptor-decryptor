@@ -1,6 +1,7 @@
 # OS File Encryptor/Decryptor (Next.js + Node on Vercel)
 
 Encrypt any file into a portable `.osenc` container and decrypt it back — built as an **Operating Systems**-themed project.
+## Report is available in the Report folder
 
 ## What you built (OS perspective)
 
@@ -51,6 +52,7 @@ npx vercel deploy -y
 ```
 
 ## Notes / limitations
+
 
 - Server mode enforces a small file limit (serverless/runtime constraints).
 - No files are stored on the server; everything is processed in-memory.
